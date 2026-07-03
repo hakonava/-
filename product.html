@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>პროდუქტი — Audiophile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">audiophile</a>
+            <nav class="main-nav" id="main-nav">
+                <a href="index.html">მთავარი</a>
+                <a href="category.html?cat=headphones">ყურსასმენები</a>
+                <a href="category.html?cat=speakers">დინამიკები</a>
+                <a href="category.html?cat=earphones">ჩასაყრელები</a>
+            </nav>
+            <div class="header-actions">
+                <a href="checkout.html" class="cart-btn" aria-label="კალათა">
+                    <svg viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path
+                            d="M22.8 3.6H6.342L5.4.826A.9.9 0 0 0 4.546.2H.9a.9.9 0 1 0 0 1.8h2.98l4.34 12.868a1.8 1.8 0 0 0 1.706 1.232h9.104a1.8 1.8 0 0 0 1.73-1.316L23.66 4.94a.9.9 0 0 0-.86-1.34ZM18 18.8a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8Zm-9.4 0a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8Z"
+                            fill="currentColor" />
+                    </svg>
+                    <span class="cart-count" data-cart-count>0</span>
+                </a>
+                <button class="nav-toggle" aria-label="მენიუს გახსნა" aria-expanded="false" aria-controls="main-nav">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <a href="javascript:history.back()" class="back-link">← უკან დაბრუნება</a>
+
+        <div id="product-detail" aria-live="polite">
+            <p class="state-msg">იტვირთება პროდუქტი…</p>
+        </div>
+
+        <div id="detail-sections" class="detail-sections"></div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="accent-bar"></div>
+            <div class="footer-top">
+                <a href="index.html" class="logo">audiophile</a>
+                <nav class="footer-nav">
+                    <a href="index.html">მთავარი</a>
+                    <a href="category.html?cat=headphones">ყურსასმენები</a>
+                    <a href="category.html?cat=speakers">დინამიკები</a>
+                    <a href="category.html?cat=earphones">ჩასაყრელები</a>
+                </nav>
+            </div>
+            <p class="footer-desc">
+                Audiophile-ს დაარსების დღიდან, ჩვენი მიზანია ვიყოთ საუკეთესო წყარო ხმის
+                ტექნოლოგიის მოყვარულთათვის საქართველოში.
+            </p>
+            <div class="footer-bottom">
+                <span>© 2026 Audiophile ყველა უფლება დაცულია. სასწავლო პროექტი — BTU.</span>
+                <div class="socials">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Twitter">t</a>
+                    <a href="#" aria-label="Instagram">ig</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/product.js"></script>
+</body>
+
+</html>

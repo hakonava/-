@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audiophile — პრემიუმ აუდიო აღჭურვილობა</title>
+    <meta name="description" content="Audiophile — ხარისხიანი ყურსასმენები, დინამიკები და ცალყურა ყურსასმენები." />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">audiophile</a>
+
+            <nav class="main-nav" id="main-nav">
+                <a href="index.html">მთავარი</a>
+                <a href="category.html?cat=headphones">ყურსასმენები</a>
+                <a href="category.html?cat=speakers">დინამიკები</a>
+                <a href="category.html?cat=earphones">ჩასაყრელები</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="checkout.html" class="cart-btn" aria-label="კალათა">
+                    <svg viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path
+                            d="M22.8 3.6H6.342L5.4.826A.9.9 0 0 0 4.546.2H.9a.9.9 0 1 0 0 1.8h2.98l4.34 12.868a1.8 1.8 0 0 0 1.706 1.232h9.104a1.8 1.8 0 0 0 1.73-1.316L23.66 4.94a.9.9 0 0 0-.86-1.34ZM18 18.8a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8Zm-9.4 0a1.4 1.4 0 1 0 0-2.8 1.4 1.4 0 0 0 0 2.8Z"
+                            fill="currentColor" />
+                    </svg>
+                    <span class="cart-count" data-cart-count>0</span>
+                </a>
+                <button class="nav-toggle" aria-label="მენიუს გახსნა" aria-expanded="false" aria-controls="main-nav">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-copy">
+                <span class="eyebrow">ახალი პროდუქტი</span>
+                <h1>XX99 Mark II<br />ყურსასმენები</h1>
+                <p>
+                    ახალი თაობის სიცხადე. ეს ყურსასმენი გახდის ნებისმიერ სცენას იმგვარად ცოცხალს,
+                    თითქოს მუსიკოსები შენს ოთახში იმყოფებოდნენ.
+                </p>
+                <a href="product.html?slug=xx99-mark-two-headphones" class="btn">იხილეთ პროდუქტი</a>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+                <div class="equalizer">
+                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container">
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="https://picsum.photos/seed/cat-headphones/280/200" alt="ყურსასმენები" />
+                    <h3>ყურსასმენები</h3>
+                    <a href="category.html?cat=headphones" class="cat-link">იხილეთ ყველა <span
+                            aria-hidden="true">→</span></a>
+                </div>
+                <div class="category-card">
+                    <img src="https://picsum.photos/seed/cat-speakers/280/200" alt="დინამიკები" />
+                    <h3>დინამიკები</h3>
+                    <a href="category.html?cat=speakers" class="cat-link">იხილეთ ყველა <span
+                            aria-hidden="true">→</span></a>
+                </div>
+                <div class="category-card">
+                    <img src="https://picsum.photos/seed/cat-earphones/280/200" alt="ჩასაყრელები" />
+                    <h3>ჩასაყრელები</h3>
+                    <a href="category.html?cat=earphones" class="cat-link">იხილეთ ყველა <span
+                            aria-hidden="true">→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="promo">
+        <div class="container">
+            <div class="promo-block">
+                <div class="promo-media">
+                    <img src="https://picsum.photos/seed/zx9-speaker/700/700" alt="ZX9 დინამიკი" />
+                </div>
+                <div class="promo-copy">
+                    <h2>ZX9 დინამიკი</h2>
+                    <p>
+                        გახსენით ბესტსელერის ჩამოსხმის ხმა უსადენო კავშირით. ZX9 გთავაზობთ
+                        იშვიათ სიცხადეს ნებისმიერ ხმის დონეზე.
+                    </p>
+                    <a href="product.html?slug=zx9-speaker" class="btn btn--dark">იხილეთ პროდუქტი</a>
+                </div>
+            </div>
+
+            <div class="promo-block light">
+                <div class="promo-media">
+                    <img src="https://picsum.photos/seed/zx7-speaker/700/700" alt="ZX7 დინამიკი" />
+                </div>
+                <div class="promo-copy">
+                    <h2>ZX7 დინამიკი</h2>
+                    <a href="product.html?slug=zx7-speaker" class="btn btn--outline">იხილეთ პროდუქტი</a>
+                </div>
+            </div>
+
+            <div class="promo-block light">
+                <div class="promo-media">
+                    <img src="https://picsum.photos/seed/yx1-earphones/700/700" alt="YX1 ჩასაყრელები" />
+                </div>
+                <div class="promo-copy">
+                    <h2>YX1 ჩასაყრელები</h2>
+                    <a href="product.html?slug=yx1-earphones" class="btn btn--outline">იხილეთ პროდუქტი</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="about-block">
+            <img src="https://picsum.photos/seed/about-audiophile/600/500" alt="ხმის ინჟინერია" />
+            <div class="about-copy">
+                <h2>ბრენდი, რომელსაც ხმა სჯერა</h2>
+                <p>
+                    2015 წლიდან Audiophile ქმნის პრემიუმ ხმის აღჭურვილობას შეუპოვარი ინჟინრებისთვის
+                    და მუსიკის მოყვარულებისთვის. ჩვენ გვჯერა, რომ ხარისხიანი ხმა ყველასთვის
+                    ხელმისაწვდომი უნდა იყოს — თითოეული პროდუქტი შექმნილია ზედმეტი დეტალების
+                    გარეშე, სუფთა და ზუსტი ხმის რეპროდუქციისთვის.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="accent-bar"></div>
+            <div class="footer-top">
+                <a href="index.html" class="logo">audiophile</a>
+                <nav class="footer-nav">
+                    <a href="index.html">მთავარი</a>
+                    <a href="category.html?cat=headphones">ყურსასმენები</a>
+                    <a href="category.html?cat=speakers">დინამიკები</a>
+                    <a href="category.html?cat=earphones">ჩასაყრელები</a>
+                </nav>
+            </div>
+            <p class="footer-desc">
+                Audiophile-ს დაარსების დღიდან, ჩვენი მიზანია ვიყოთ საუკეთესო წყარო ხმის
+                ტექნოლოგიის მოყვარულთათვის საქართველოში. გვინდა შემოგთავაზოთ ფართო არჩევანი
+                და პროფესიონალური რჩევა, რომ ყოველთვის იპოვოთ ის, რაც გჭირდებათ.
+            </p>
+            <div class="footer-bottom">
+                <span>© 2026 Audiophile ყველა უფლება დაცულია. სასწავლო პროექტი — BTU.</span>
+                <div class="socials">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Twitter">t</a>
+                    <a href="#" aria-label="Instagram">ig</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
