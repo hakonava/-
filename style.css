@@ -112,10 +112,6 @@ button {
   background: var(--color-black);
   color: var(--color-white);
 }
-
-/* =========================================================
-   HEADER / NAV
-   ========================================================= */
 .site-header {
   background: var(--color-black);
   color: var(--color-white);
@@ -236,10 +232,6 @@ button {
   top: 0;
   transform: rotate(-45deg);
 }
-
-/* =========================================================
-   HERO / SIGNATURE EQUALIZER
-   ========================================================= */
 .hero {
   background: var(--color-black);
   color: var(--color-white);
@@ -296,10 +288,6 @@ button {
   0%, 100% { transform: scaleY(0.4); opacity: 0.7; }
   50% { transform: scaleY(1); opacity: 1; }
 }
-
-/* =========================================================
-   CATEGORY CARDS
-   ========================================================= */
 .categories {
   padding: 100px 0 40px;
 }
@@ -342,10 +330,6 @@ button {
 .category-card .cat-link:hover {
   color: var(--color-orange);
 }
-
-/* =========================================================
-   FEATURE PROMO BLOCKS
-   ========================================================= */
 .promo {
   padding: 60px 0;
 }
@@ -404,10 +388,6 @@ button {
   color: var(--color-grey-text);
   line-height: 1.8;
 }
-
-/* =========================================================
-   FOOTER
-   ========================================================= */
 .site-footer {
   background: var(--color-black);
   color: rgba(255, 255, 255, 0.6);
@@ -472,10 +452,6 @@ button {
 .socials a:hover {
   background: var(--color-orange);
 }
-
-/* =========================================================
-   CATEGORY LISTING PAGE
-   ========================================================= */
 .page-banner {
   background: var(--color-black);
   color: var(--color-white);
@@ -554,10 +530,6 @@ button {
   padding: 80px 0;
   color: var(--color-grey-text);
 }
-
-/* =========================================================
-   PRODUCT DETAIL PAGE
-   ========================================================= */
 .back-link {
   display: inline-block;
   margin: 40px 0 0;
@@ -708,10 +680,6 @@ button {
   text-transform: uppercase;
   margin-bottom: 24px;
 }
-
-/* =========================================================
-   CHECKOUT / CART
-   ========================================================= */
 .checkout-wrap {
   padding: 60px 0 120px;
   display: grid;
@@ -900,14 +868,12 @@ button {
   text-align: center;
   margin-top: 20px;
 }
-
 .empty-cart {
   text-align: center;
   padding: 40px 0;
   color: var(--color-grey-text);
 }
 
-/* Confirmation modal */
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -977,8 +943,6 @@ button {
   width: 100%;
   text-align: center;
 }
-
-/* utility */
 .visually-hidden {
   position: absolute;
   width: 1px;
